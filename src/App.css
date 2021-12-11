@@ -1,12 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap');
-
-
-
 body{
   background-color: #25272c;
   color: white;
 }
 
 .container{
+  position: absolute;
   text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+button{
+  margin: 10px auto;
+  border-radius: 5px;
+  background-color: hsla(145, 89%, 36%, 0.493);
+  color:white;
+  padding: 5px 10px;
+}
+
+.buttons{
+  display: inline-flex;
+  flex-direction: row;
 }
