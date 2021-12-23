@@ -4,9 +4,9 @@ import { SettingsContext } from '../context/SettingsContext'
 const SetPomodoro = () => {
 
     const [newTimer, setNewTimer] = useState({
-        work: 0.2,
-        short: 0.1,
-        long: 0.5,
+        work: 25,
+        short: 10,
+        long: 15,
         active: 'work'
     })
 
